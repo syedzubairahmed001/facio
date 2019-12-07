@@ -28,3 +28,26 @@ html * {
 .button-green:hover{
   transform: scale(1.1);
 }
+
+
+@media only screen and (max-width: 500px) {
+  nav {
+    top: 10px;
+    left: 10px;
+    width: 100%;
+  }
+  header{
+    padding: 10px;
+  }
+  header div {
+    width: 100%;
+  }
+  nav .logo-container a p {
+    display: none;
+  }
+  nav .menu-container a {
+    padding: 10px 0;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+}
