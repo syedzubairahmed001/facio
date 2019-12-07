@@ -77,7 +77,7 @@ header div p{
 
 
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   nav{
     top: 10px;
     left: 10px;
