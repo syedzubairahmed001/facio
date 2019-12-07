@@ -1,22 +1,15 @@
-header{
-  width: 100%;
-  height: 100vh;
-  background: url('../svg-backgrounds/hero.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 40px;
-  display: flex;
-  align-items: center;
+body{
+  background-color: #333;
 }
-
 nav{
   display: flex;
   position: fixed;
-  top: 20px;
-  left: 40px;
-  width: 80%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width:100%;
   justify-items: stretch;
+  background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0));
 }
 
 nav .logo-container{
@@ -59,31 +52,7 @@ nav .menu-container a:hover{
   opacity: .8;
 }
 
-header div{
-  width: 45%;
-}
-header div h1,
-header div p{
-  margin-bottom: 20px;
-}
-header div h1{
-  color: #fff;
-  font-size: 80px;
-}
-header div p{
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
-}
-
-
-
-@media (min-width: 500px) {
-  nav{
-    top: 10px;
-    left: 10px;
-    width: 100%;
-  }
-  header div{
-    width: 100%;
-  }
+video{
+  width: 100vw;
+  height: 100vh;
 }
