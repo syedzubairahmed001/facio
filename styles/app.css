@@ -1,3 +1,7 @@
+canvas{
+  position: absolute;
+}
+
 body{
   background-color: #333;
 }
